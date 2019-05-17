@@ -39,7 +39,6 @@ class ScheduleCalendar extends Component {
           <TableHead>
             <TableRow>
               <TableCell>Horario</TableCell>
-              <TableCell align="right">Lunes</TableCell>
               {dias.map((dia)=>{
                   return <TableCell align="right" key={dia}>{dia}</TableCell>
                 })}

@@ -1,11 +1,16 @@
 
 export default class Cola{
   nombre
+  domicilio
+  tipoFila
   creador
   horarios
+  permisos
   constructor(){
     this.nombre = ""
-    this.creador = ""
+    this.creador = "Victorie Lune"
+    this.permisos = "Administrador"
+    this.tipoFila = ""
     this.horarios = {
       _0000_0030:{Lunes:false,Martes:false,Miercoles:false,Jueves:false,Viernes:false,Sabado:false,Domingo:false},
       _0030_0100:{Lunes:false,Martes:false,Miercoles:false,Jueves:false,Viernes:false,Sabado:false,Domingo:false},
