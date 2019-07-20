@@ -1,0 +1,5 @@
+export const NEW_QUEUE      ="NEW_QUEUE"
+export const SET_NAME       ="SET_NAME"
+export const SET_DIRECTION  ="SET_DIRECTION"
+export const SET_SCHEDULES  ="SET_SCHEDULES"
+export const SET_ORDER_TYPE ="SET_ORDER_TYPE"
